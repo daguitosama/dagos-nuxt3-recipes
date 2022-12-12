@@ -5,9 +5,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "p:prod": "nuxt build && nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "cypress": "^12.0.2",
     "nuxt": "3.0.0"
   }
 }
